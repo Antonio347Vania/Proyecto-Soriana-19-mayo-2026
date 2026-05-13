@@ -131,4 +131,39 @@
 - 📊 **Monitorización:** Integrar Crashlytics y Analytics desde la fase de staging. Definir KPIs de rendimiento (TTI, FPS, tasa de error en red).
 
 ---
+# PROMT
+Actúa como Arquitecto de Software Senior y Líder Técnico especializado en Flutter, Dart y Firebase. Necesito que redactes un Plan de Implementación Técnica detallado, en formato Markdown, para el desarrollo de una aplicación multiplataforma de comercio retail llamada "Soriana". La aplicación debe ser compatible nativamente con Android, iOS, Web y Windows.
 
+RESTRICCIONES OBLIGATORIAS:
+- PROHIBIDO incluir código de cualquier tipo (ni snippets, ni sintaxis, ni comandos CLI extensos). El documento debe ser 100% procedimental, arquitectónico y conceptual.
+- Usa un tono corporativo, técnico y listo para equipos de desarrollo, QA y operaciones de despliegue.
+- Prioriza escalabilidad, mantenibilidad, seguridad y cumplimiento de estándares Flutter/Firebase vigentes (2025-2026).
+
+ESTRUCTURA REQUERIDA (USA TABLAS PROFESIONALES EN CADA SECCIÓN):
+
+1. Fase 1: Entorno de Desarrollo y Herramientas
+   Tabla con: Componente, Herramienta/SDK, Versión Recomendada, Propósito. Incluye VS Code como IDE principal, mención breve de "Antigravity" como asistente/complemento, FlutterFire CLI, Git, y compiladores nativos por plataforma.
+
+2. Fase 2: UI/UX y Sistema de Diseño
+   Tabla con: Dimensión, Estrategia, Herramienta de Soporte, Entregable Validable. Cubre Design Tokens, adaptabilidad responsive/adaptive, accesibilidad WCAG 2.1 AA y gestión de estados de interfaz (skeletons, vacíos, error, carga).
+
+3. Fase 3: Dependencias y Arquitectura (pubspec.yaml conceptual)
+   Tabla con: Categoría, Paquete, Versión Objetivo, Función Arquitectónica. Incluye: firebase_core, firebase_auth, cloud_firestore, provider, go_router, cached_network_image, google_fonts, shimmer, flutter_form_builder o formz, shared_preferences, flutter_lints, build_runner.
+
+4. Fase 4: Autenticación y Firestore
+   Tabla con: Módulo, Configuración Técnica, Flujo de Usuario, Reglas y Seguridad. Detalla auth Email/Password, estructura de colecciones/subcolecciones, resiliencia offline y validación de reglas.
+
+5. Fase 5: Gestión de Estado con Provider
+   Tabla con: Proveedor, Alcance, Datos Gestionados, Patrón de Uso. Incluye AuthProvider, CartProvider, CatalogProvider, ThemeProvider con estrategias de ChangeNotifier, StreamProvider y ScopedProviders.
+
+6. Procedimiento Paso a Paso (Implementación)
+   Lista numerada y secuencial que cubra: inicialización del proyecto, integración Firebase, módulo auth, arquitectura de datos, gestión de estado, desarrollo de features (catálogo, carrito, checkout, perfil), adaptación multiplataforma, pruebas/aseguramiento y preparación para despliegue.
+
+7. Criterios de Aceptación por Fase
+   Tabla con: Fase, Entregable, Criterio de Validación, Herramienta de Verificación.
+
+8. Notas Profesionales y Buenas Prácticas
+   Puntos clave sobre seguridad (Firestore Rules/Cloud Functions), arquitectura (capas Presentation-State-Data), uso eficiente de Provider, modelado NoSQL en Firestore, validación multiplataforma y monitorización post-lanzamiento.
+
+ENTREGABLE FINAL:
+Cierra el documento preguntando cuál será el siguiente artefacto técnico a generar (ej. diagrama de flujo de estados de Provider o matriz de reglas de seguridad de Firestore). Mantén coherencia terminológica, evita redundancias y asegúrate de que el plan sea ejecutable sin ambigüedades por un equipo de ingeniería.
