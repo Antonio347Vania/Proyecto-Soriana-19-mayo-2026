@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721230522050",
+    "project_id": "dbsoriana",
+    "storage_bucket": "dbsoriana.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721230522050:android:cdf85886170d320c7ebd5b",
+        "android_client_info": {
+          "package_name": "com.sorianaFinal.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN5Y0FQoBkTpBxGk4aSM9ZS85fmTR1_Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
